@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Thayanna
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Sophia 
 // Data atual  : 07/09/2020
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 Brasil, Mexico, Canada, India, Franca, Chile, Australia: inteiro
 
 musicaSelecionada,continenteSelecionado, samba, rancheira, rock, pop: caractere
@@ -23,8 +23,8 @@ numeroMaior, i : inteiro
  V : vetor [1..7] de inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-escreval ("/Digite qual continente você mais gosta?/")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+escreval ("/Digite qual continente vocÃª mais gosta?/")
  leia (continenteSelecionado)
  escreval("/===========================================/")
     se continenteSelecionado = "america" entao
@@ -60,7 +60,7 @@ escreval ("/Digite qual continente você mais gosta?/")
          Franca := Franca+1
       India := India+1
     fimse
-  escreval ("/Qual idioma você mais gosta?/")
+  escreval ("/Qual idioma vocÃª mais gosta?/")
    leia (idiomaSelecionado)
      escreval("/===========================================/")
       se idiomaSelecionado = "portugues" entao
@@ -85,7 +85,7 @@ escreval ("/Digite qual continente você mais gosta?/")
    se idiomaSelecionado = "hindi" entao
    India := India+1
      fimse
-    escreval ("/Qual o nivel de perigo você prefere?/")
+    escreval ("/Qual o nivel de perigo vocÃª prefere?/")
       leia(perigoSelecionado)
         escreval("/===========================================/")
        se perigoSelecionado = "alto" entao
@@ -99,7 +99,7 @@ escreval ("/Digite qual continente você mais gosta?/")
      Franca := Franca +1
      Australia := Australia +1
     fimse
-  escreval("/Quanros criptoThay você possui?/")
+  escreval("/Quanros criptoThay vocÃª possui?/")
    leia(criptothay)
     escreval("/===========================================/")
      V[1] <-Australia
@@ -117,48 +117,48 @@ escreval ("/Digite qual continente você mais gosta?/")
                 fimse
               fimpara
 
-    escreval("/De acordo com as suas resposta esses são os paises que combinam contigo :)/")
+    escreval("/De acordo com as suas resposta esses sÃ£o os paises que combinam contigo :)/")
      escreval("/===========================================/")
       se numeroMaior = V[1] entao
      dolarAustraliano := criptothay * 1.54
     escreval("Australia")
-   escreval("Esse é o valor que você tem em Dolar Australiano:",dolarAustraliano)
+   escreval("Esse Ã© o valor que vocÃª tem em Dolar Australiano:",dolarAustraliano)
   escreval("/===========================================/")
    fimse
     se numeroMaior = V[2] entao
      reais := criptothay * 2.42
       escreval("Brasil")
-       escreval("Esse é o valor que você possui em Reais:",reais)
+       escreval("Esse Ã© o valor que vocÃª possui em Reais:",reais)
       escreval("/===========================================/")
      fimse
     se numeroMaior = V[3] entao
      dolarCanadense := criptothay * 1.82
        escreval("Canada")
-        escreval("Esse é o valor que você possui em Dolar Canadense:",dolarCanadense)
+        escreval("Esse Ã© o valor que vocÃª possui em Dolar Canadense:",dolarCanadense)
          escreval("/===========================================/")
           fimse
            se numeroMaior = V[4] entao
             pesoChileno := criptothay * 4.25
            escreval("Chile")
-          escreval("Esse é o valor que você possui em Peso Chileno:",pesoChileno)
+          escreval("Esse Ã© o valor que vocÃª possui em Peso Chileno:",pesoChileno)
          escreval("/===========================================/")
         fimse
        se numeroMaior = V[5] entao
       euro := criptothay * 1.22
      escreval("Franca")
-    escreval("Esse é o valor que você possui em Euros:",euro)
+    escreval("Esse Ã© o valor que vocÃª possui em Euros:",euro)
      escreval("/===========================================/")
       fimse
       se numeroMaior = V[6] entao
        rupiaIndiana := criptothay* 6.58
         escreval("India")
-         escreval("Esse é o valor que você possui em Rupia Indiana:",rupiaIndiana)
+         escreval("Esse Ã© o valor que vocÃª possui em Rupia Indiana:",rupiaIndiana)
           escreval("/===========================================/")
          fimse
         se numeroMaior = V[7] entao
        pesoMexicano := criptothay * 5.36
       escreval("Mexico")
-     escreval("Esse é o valor que você possui em Peso Mexicano:",pesoMexicano)
+     escreval("Esse Ã© o valor que vocÃª possui em Peso Mexicano:",pesoMexicano)
     escreval("/===========================================/")
      fimse
 Fimalgoritmo
